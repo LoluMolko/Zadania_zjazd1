@@ -1,12 +1,16 @@
 n = rand(100)
+i = 1
+
 
 if n < 1
   puts "Liczba musi być > 0"
 else
-  i = 0
   while i < n
-    puts i + 1
-    puts -n + i
+    puts i
+    puts -i
     i = i + 1
   end
 end
+
+puts n
+puts -n

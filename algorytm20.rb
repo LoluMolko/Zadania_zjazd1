@@ -1,9 +1,9 @@
-x = gets.to_i
-wynik = 0
+n = gets.to_i
+s = 0
 
-while x != 0
-  wynik = wynik + (x % 10)
-  x = x / 10
+while n != 0
+  s = s + (n % 10)
+  n = n / 10
 end
 
-puts wynik
+puts s

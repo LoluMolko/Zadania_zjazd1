@@ -1,5 +1,4 @@
 n = rand(100)
-puts "Wybrana liczba #{n}"
 i = 2
 
 if n >= 2

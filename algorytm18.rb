@@ -3,9 +3,9 @@ s = 0
 
 while n != 0
   if n % 2 == 0
-      s = s + n
+     s = s + n
   end
   n = gets.to_i
 end
 
-puts s
+puts "Suma liczb dodatnich = #{s}"
