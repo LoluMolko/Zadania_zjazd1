@@ -35,9 +35,9 @@ when 0, 1
 when 8
   puts "- Data urodzenia: #{pesel[4]}#{pesel[5]}-0#{pesel[3]}-18#{pesel[0]}#{pesel[1]} "
 when 9
-  puts "- Data urodzenia: #{pesel[4]}#{pesel[5]}-1#{pesel[2]}#{pesel[3]}-20#{pesel[0]}#{pesel[1]} "
+  puts "- Data urodzenia: #{pesel[4]}#{pesel[5]}-1#{pesel[3]}-20#{pesel[0]}#{pesel[1]} "
 when 2
-  puts "- Data urodzenia: #{pesel[4]}#{pesel[5]}-0#{pesel[2]}#{pesel[3]}-20#{pesel[0]}#{pesel[1]} "
+  puts "- Data urodzenia: #{pesel[4]}#{pesel[5]}-0#{pesel[3]}-20#{pesel[0]}#{pesel[1]} "
 when 3
-  puts "- Data urodzenia: #{pesel[4]}#{pesel[5]}-1#{pesel[2]}#{pesel[3]}-20#{pesel[0]}#{pesel[1]} "
+  puts "- Data urodzenia: #{pesel[4]}#{pesel[5]}-1#{pesel[3]}-20#{pesel[0]}#{pesel[1]} "
 end
